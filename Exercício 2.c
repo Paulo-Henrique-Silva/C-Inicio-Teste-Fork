@@ -14,8 +14,10 @@ int main()
   int xpto;
   int xpto2 = 2;
   
+  printf("Digite um valor: ");
   scanf("%d",&xpto);
-  printf("Os valorers da variáveis são %d,%d",xpto,xpto2);
 
-    return 0;
+  printf("Os valores das variáveis são %d,%d.",xpto,xpto2);
+  
+  return 0;
 }

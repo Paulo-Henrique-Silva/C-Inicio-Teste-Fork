@@ -11,7 +11,7 @@ int main()
   printf("digite um número: ");
   scanf("%d", &y);
   
-  for(i= 1; i <= y; i++){
+  for(i = 1; i <= y; i++){
       r = i + r;
       m = i * m;
   }

@@ -2,17 +2,14 @@
 
 int main()
 {
-    int x;
-    int sal;
+  double sal, aumento;
     
-    printf("digite seu salário: ");
-    scanf("%d", &x);
+  printf("Digite seu salário: R$");
+  scanf("%d", &sal);
     
-    sal = x + (x*0.1);
-    
-    printf("Seu salário com aumento é: %d", sal);
+  aumento = sal + sal * 0.1;
+
+  printf("Seu salário com aumento é: R$%.2lf", aumento + sal);
+
   return 0;
-  
-
-
 }
