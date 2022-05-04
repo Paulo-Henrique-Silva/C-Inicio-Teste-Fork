@@ -2,14 +2,12 @@
 
 int main()
 {
-  int i;
-  int soma;
+  int soma = 0;
   
-  for(i = 1; i <= 1000; i++){
-      soma = i + i++ + soma;
-  }
+  for(int i = 1; i <= 1000; i++)
+        soma += i;
   
-  printf("%d",soma);
+  printf("soma = %d",soma);
   
   return 0;
-  }
+}
