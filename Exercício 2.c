@@ -17,9 +17,5 @@ int main()
   scanf("%d",&xpto);
   printf("Os valorers da variáveis são %d,%d",xpto,xpto2);
 
-    
-  
-   
-
     return 0;
 }
